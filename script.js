@@ -1,7 +1,7 @@
 //your JS code here. If required.
-let liItem = document.getElementById("level");
+let liItem = document.getElementsById("level");
 let n;
-let list = document.getElementByTagName("li");
+let list = document.getElementsByTagName("li");
 
 for(let i=0; i<list.length; i++) {
 	if(list[i].innertext === liItem.innertext) {
