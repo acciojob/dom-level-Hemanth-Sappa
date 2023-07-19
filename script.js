@@ -1,13 +1,13 @@
 //your JS code here. If required.
-let liItem = document.getElementsById("level");
+let liItem = document.getElementById("level");
 let n;
 let list = document.getElementsByTagName("li");
 
 for(let i=0; i<list.length; i++) {
-	if(list[i].innertext === liItem.innertext) {
+	if(list[i].id === liItem.id) {
 		n = i;
-		break;
+	
 	}
 }
 
-alert(n);
+alert(n);  
