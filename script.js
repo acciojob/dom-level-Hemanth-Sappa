@@ -6,7 +6,8 @@ let list = document.getElementByTagName("li");
 for(let i=0; i<list.length; i++) {
 	if(list[i].innertext === liItem.innertext) {
 		n = i;
+		break;
 	}
 }
 
-alert();
+alert(n);
